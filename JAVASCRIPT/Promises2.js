@@ -1,5 +1,5 @@
 //Magic of Promises --> 
-// Here we have learnt how to 
+// Here we have learnt how to chain on .then() for each returning  promises and only one .catch() for all .then() .
 
 const fakeRequestPromise = (url) => {
     return new Promise((resolve,reject)=>{
